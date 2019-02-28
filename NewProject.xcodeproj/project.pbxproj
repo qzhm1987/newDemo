@@ -13,6 +13,8 @@
 		0453AD0F1F74A66B005853C5 /* NewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453AD0E1F74A66B005853C5 /* NewProjectTests.m */; };
 		0453AD1A1F74A66B005853C5 /* NewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453AD191F74A66B005853C5 /* NewProjectUITests.m */; };
 		0453AD291F74B1AB005853C5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453AD281F74B1AB005853C5 /* MainViewController.m */; };
+		CB50E15D22277A15005EE114 /* ARTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50E15C22277A15005EE114 /* ARTabBar.m */; };
+		CB50E16322278866005EE114 /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50E16222278866005EE114 /* PYViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		0453AD1B1F74A66B005853C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0453AD271F74B1AB005853C5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		0453AD281F74B1AB005853C5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CB50E15B22277A15005EE114 /* ARTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTabBar.h; sourceTree = "<group>"; };
+		CB50E15C22277A15005EE114 /* ARTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTabBar.m; sourceTree = "<group>"; };
+		CB50E16122278866005EE114 /* PYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYViewController.h; sourceTree = "<group>"; };
+		CB50E16222278866005EE114 /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 				0453ACF61F74A66B005853C5 /* AppDelegate.m */,
 				0453AD271F74B1AB005853C5 /* MainViewController.h */,
 				0453AD281F74B1AB005853C5 /* MainViewController.m */,
+				CB50E15B22277A15005EE114 /* ARTabBar.h */,
+				CB50E15C22277A15005EE114 /* ARTabBar.m */,
+				CB50E16122278866005EE114 /* PYViewController.h */,
+				CB50E16222278866005EE114 /* PYViewController.m */,
 				0453ACFE1F74A66B005853C5 /* Assets.xcassets */,
 				0453AD031F74A66B005853C5 /* Info.plist */,
 				0453AD041F74A66B005853C5 /* main.m */,
@@ -257,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB50E15D22277A15005EE114 /* ARTabBar.m in Sources */,
 				0453AD051F74A66B005853C5 /* main.m in Sources */,
 				0453AD291F74B1AB005853C5 /* MainViewController.m in Sources */,
+				CB50E16322278866005EE114 /* PYViewController.m in Sources */,
 				0453ACF71F74A66B005853C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
